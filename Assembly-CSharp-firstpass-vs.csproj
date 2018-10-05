@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{4FEEB028-A479-B7AD-672A-E901A18CA4D0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\NdPlatform\Bonjour.cs" />
+     <Compile Include="Assets\Plugins\UnityXConfig.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\StoreKit\PurchaseState.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\StoreKit\RequestProductState.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\StoreKit\StoreKitHelper.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\StoreKit\ValidationState.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\UI\AlertView.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\UI\HtmlView.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\UI\HtmlViewState.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\UI\InputArea.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\UI\InputBox.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\UI\KeyboardType.cs" />
+     <Compile Include="Assets\Plugins\iOSPlatform\iOSHelper.cs" />
+     <Compile Include="Assets\Plugins\iTween\iTween.cs" />
+     <Compile Include="Assets\Plugins\iTween\iTweenHinting.cs" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\Number\Number04.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font04.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\FontProps00.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font14.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Additive Tint.shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\FontProps14.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\FontProps06.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\FontProps04.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Goodies\TexturePacker\Exporter\2dtoolkit\exporter.xml" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\Number\Number03.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\Number\Number01.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2dUI\Shaders\DepthMask.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font16.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font02.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\Number\Number02.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\goodies\PackedTextMesh.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font10.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\Font16.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2dUI\Shaders\DepthMaskSolid.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font15.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\Number\Number00.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\FontProps01.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font07.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\resources\BlendVertexColor.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font05.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font12.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Editor\EditorUtility.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font06.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font00.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font03.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font09.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\Font\myfont.txt" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\Font12.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\PropsIcon\Font\FontProps13.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font13.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font08.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Scenes\CG\CGBattle.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font11.txt" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\NewFont\Font01.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\IGSoft_Resources\ToolResources\EffectShader\FXMaker_Mask Alpha Blended Tint.shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\+Ext\TK2DROOT\tk2d\Shaders\AdditiveVertexColor.shader" />
+     <None Include="Assets\Scenes\Test\Res\UI\NewInterface\1FontNgui\Number\Number05.txt" />
+     <None Include="Assets\+Ext\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Scenes\CG\CGMap.txt" />
+ <Reference Include="ConfigUtilities">
+ <HintPath>/Users/apple/Documents/projects/Unity/aoc/Assets/Plugins/ConfigUtilities.dll</HintPath>
+ </Reference>
+ <Reference Include="CommandConsts">
+ <HintPath>/Users/apple/Documents/projects/Unity/aoc/Assets/Plugins/CommandConsts.dll</HintPath>
+ </Reference>
+ <Reference Include="CommonUtilities">
+ <HintPath>/Users/apple/Documents/projects/Unity/aoc/Assets/Plugins/CommonUtilities.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>/Users/apple/Documents/projects/Unity/aoc/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>/Users/apple/Documents/projects/Unity/aoc/Assets/Plugins/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="zlib.net">
+ <HintPath>/Users/apple/Documents/projects/Unity/aoc/Assets/Plugins/zlib.net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
